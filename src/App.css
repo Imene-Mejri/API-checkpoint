@@ -1,0 +1,54 @@
+
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bigcard{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+
+
+}
+.content{
+  color: black;
+ 
+ 
+  margin-left: 10%;
+  text-align: left;
+}
+.content span{
+  color:white;
+}
+.container1{
+  text-align: center;
+  color: black;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+ 
+.cardsimple{
+  background: #ff0066 ;
+ 
+
+
+border: 1px solid #7C1F4C ;
+
+margin-top: 50px;
+
+border-radius: 10px;
+box-shadow: 0 16px 30px 0 rgba(0,0,0,0.2);
+font-size:large;
+
+}
+.cardsimple:hover
+{box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);}
+  
